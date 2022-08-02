@@ -1,0 +1,25 @@
+package Video1;
+
+public class Proje1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("selam millet");
+
+		String isim = "erkan oner";
+		System.out.println(isim);
+		
+		System.out.println("erkan oner");
+		System.out.println("erkan oner");
+		System.out.println("erkan oner");
+		System.out.println("erkan oner");
+		System.out.println("erkan oner");
+		System.out.println("erkan oner");
+		System.out.println("erkan oner");
+		System.out.println("erkan oner");
+		System.out.println("erkan oner");
+		
+	}
+
+}

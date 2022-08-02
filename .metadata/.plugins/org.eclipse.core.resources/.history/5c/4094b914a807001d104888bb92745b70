@@ -1,0 +1,14 @@
+
+public class OopInfo {
+
+	public static void main(String[] args) {
+
+		String[] name = { "lenovo v14", "lenovo v15", "hp gaming 3" };
+		int[] unitsInStock = { 10, 5, 7 };
+		
+		
+		
+		
+	}
+
+}

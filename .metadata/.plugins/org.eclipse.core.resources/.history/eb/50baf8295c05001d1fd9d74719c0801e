@@ -1,0 +1,15 @@
+package Video1;
+
+public class Proje1 {
+
+	public static void main(String[] args) {
+
+		String urunAdlari[] = { "elma", "armut", "muz", "su", "karpuz", "kavun", "sarmisak" };
+
+		for (int i = 0; i < urunAdlari.length; i++) {
+			System.out.println("urun adi : " + urunAdlari[i]);
+		}
+
+	}
+
+}

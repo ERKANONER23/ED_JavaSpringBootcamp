@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\Eclipse-JEE\projeler\.metadata\.plugins\org.eclipse.jdt.core
+735496976.index
+3583471845.index
+1285431647.index
+1865797976.index
+839077875.index

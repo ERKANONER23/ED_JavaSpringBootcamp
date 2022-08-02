@@ -1,0 +1,20 @@
+package Video1;
+
+public class Proje1 {
+
+	public static void main(String[] args) {
+		
+		double dolarDun =16.75;
+		double dolarbugun =15.25;
+		System.out.println(dolarDun);
+		
+		if (dolarDun<dolarbugun) {
+			System.out.println("doar artti");
+		}else {
+			System.out.println("dolar dustu");
+		}
+		
+		
+	}
+
+}

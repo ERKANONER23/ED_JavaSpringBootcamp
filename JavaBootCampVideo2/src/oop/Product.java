@@ -1,11 +1,22 @@
 package oop;
 
 public class Product {
-	
+
 	int id;
-	String name ;
+	String name;
 	double unitPrice;
-	String detail ;
-	
-	
+	String detail;
+
+	public Product() {
+		System.out.println("Product yapilandiricisi calistirildi");
+	}
+
+	public Product(int id, String name, double unitPrice, String detail) {
+		this();
+		this.id = id;
+		this.name = name;
+		this.unitPrice = unitPrice;
+		this.detail = detail;
+	}
+
 }

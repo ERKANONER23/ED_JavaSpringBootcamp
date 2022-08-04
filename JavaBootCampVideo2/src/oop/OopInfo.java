@@ -11,11 +11,15 @@ public class OopInfo {
 			System.out.println("name : " + name[i] + " stok : " + unitsInStock[i]);
 		}
 
+		ProductManager productManager = new ProductManager();
+
 		Product product1 = new Product(); // ornek olusutma referans olusturma instance denebilir
 		product1.id = 1;
 		product1.name = "Lenovo v15";
 		product1.detail = "i5 Islemci 16GB ram";
 		product1.unitPrice = 15000.4;
+
+		productManager.addToCart(product1);
 
 		Product product2 = new Product();
 		product2.id = 2;
@@ -23,13 +27,22 @@ public class OopInfo {
 		product2.detail = "128 gb ssd";
 		product2.unitPrice = 14000;
 
-		Product product3 = new Product();
-		product3.id = 3;
-		product3.name = "HP 14";
-		product3.detail = "Gaming Notebook";
+		productManager.addToCart(product2);
+
+		Product product3 = new Product(3, "Ho14", 13000, "Gaming Notebook");
+
+		productManager.addToCart(product3);
 
 		Product[] products = { product1, product2, product3 };
 		System.out.println("product dizi uzunlugu :" + products.length);
+
+		Category category1 = new Category();
+		category1.id = 1;
+		category1.name = "Bilgisayar";
+
+		Category category2 = new Category();
+		category2.id = 2;
+		category2.name = "Giyim";
 
 		for (Product product : products) {
 			System.out.println(product.id);

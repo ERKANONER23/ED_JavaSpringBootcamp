@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollPaneUI"/>
+    <fullyQualifiedTypeName name="oop.Category"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="oop.ProductManager"/>
     <fullyQualifiedTypeName name="oop.Product"/>
 </qualifiedTypeNameHistroy>
